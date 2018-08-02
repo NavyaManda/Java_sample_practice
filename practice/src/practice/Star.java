@@ -1,0 +1,19 @@
+package practice;
+
+public class Star {
+	public static void main(String args[])
+	{
+	int k=6;
+	for(int i=0;i<=5;i++)
+	{
+		k--;
+		
+		for(int j=0;j<k;j++)
+		{
+			System.out.print("*");
+		}
+		System.out.println();
+	}
+
+}
+}
